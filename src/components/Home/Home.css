@@ -1,0 +1,68 @@
+.section-banner {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-height: auto;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.banner-img {
+  border-radius: 10px;
+}
+.banner-info {
+  margin-top: 2rem;
+}
+.banner-info > h1 {
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+}
+.banner-info span {
+  color: blueviolet;
+}
+.banner-info p {
+  color: rgb(126, 126, 126);
+  margin-top: 1rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: blueviolet;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.btn:hover {
+  background-color: gainsboro;
+}
+@media screen and (min-width: 992px) {
+  .section-banner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 72px);
+  }
+  .banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .banner-info {
+    order: -1;
+  }
+  .banner-info {
+    margin-top: 0;
+  }
+  .banner-info > h1 {
+    font-size: 2rem;
+  }
+  .btn {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
