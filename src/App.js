@@ -4,13 +4,14 @@ import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import Dashboard from './components/Dashboard/Dashboard'
 import Home from './components/Home/Home'
+import Navbar from './components/Navbar/Navbar'
 import NotFound from './components/NotFound/NotFound'
 import Reviews from './components/Reviews/Reviews'
 
 function App() {
   return (
-    <div className='App'>
-      <h1>This is Header</h1>
+    <div>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
