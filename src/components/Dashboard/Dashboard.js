@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import MyAreaChart from '../MyAreaChart/MyAreaChart'
+import MyBarChart from '../MyBarChart/MyBarChart'
 import MyLineChart from '../MyLineChart/MyLineChart'
 import './Dashboard.css'
 
@@ -16,6 +17,7 @@ const Dashboard = () => {
     <section className='section-dashboard'>
       <MyLineChart chartData={chartData} />
       <MyAreaChart chartData={chartData} />
+      <MyBarChart chartData={chartData} />
     </section>
   )
 }
