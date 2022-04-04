@@ -28,6 +28,7 @@
   display: inline-block;
   margin-top: 1rem;
   font-size: 1rem;
+  font-weight: 500;
   padding: 1rem 2rem;
   border: none;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
