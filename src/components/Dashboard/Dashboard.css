@@ -1,11 +1,15 @@
 .section-dashboard {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1170px;
-  min-height: auto;
   background-color: rgb(247, 247, 247);
-  border-radius: 10px;
-  padding: 2rem;
+}
+.chart-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.chart-label {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
   .section-dashboard {

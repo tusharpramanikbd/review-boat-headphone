@@ -3,7 +3,7 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <section className='section-banner'>
+    <section className='section-center section-banner'>
       <article className='banner-container'>
         <img
           className='banner-img'

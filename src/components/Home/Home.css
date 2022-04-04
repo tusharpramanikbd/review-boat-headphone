@@ -2,15 +2,6 @@
   margin: 1rem 0;
   text-align: center;
 }
-.section-reviews {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1170px;
-  min-height: auto;
-  background-color: aqua;
-  border-radius: 10px;
-  padding: 2rem;
-}
 .see-all-btn-container {
   text-align: center;
 }

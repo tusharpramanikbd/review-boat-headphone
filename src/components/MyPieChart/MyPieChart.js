@@ -1,6 +1,5 @@
 import React from 'react'
 import { PieChart, Pie, ResponsiveContainer, Tooltip } from 'recharts'
-import './MyPieChart.css'
 
 const MyPieChart = (props) => {
   const { chartData } = props

@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
   return (
-    <section className='section-blogs'>
+    <section className='section-center'>
       <h1>What is Context API?</h1>
       <p>
         Context api is a in-built state management tool from react js. It

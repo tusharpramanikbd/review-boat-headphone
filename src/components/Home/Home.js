@@ -18,7 +18,7 @@ const Home = () => {
     <div className='home-container'>
       <Banner />
       <h1 className='customer-review-title'>Customer Reviews(3)</h1>
-      <section className='section-reviews'>
+      <section className='section-center section-reviews'>
         {reviews.map((review, index) => {
           return index < 3 ? <Review key={review.id} review={review} /> : null
         })}

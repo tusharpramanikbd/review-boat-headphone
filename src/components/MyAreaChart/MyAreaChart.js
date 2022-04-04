@@ -8,7 +8,6 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
-import './MyAreaChart.css'
 
 const MyAreaChart = (props) => {
   const { chartData } = props

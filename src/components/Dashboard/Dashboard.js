@@ -15,7 +15,7 @@ const Dashboard = () => {
   }, [])
 
   return (
-    <section className='section-dashboard'>
+    <section className='section-center section-dashboard'>
       <MyLineChart chartData={chartData} />
       <MyAreaChart chartData={chartData} />
       <MyBarChart chartData={chartData} />
