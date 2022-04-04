@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import useReviews from '../../hooks/useReviews'
 import Banner from '../Banner/Banner'
 import Review from '../Review/Review'
 import './Home.css'
@@ -7,13 +8,7 @@ import './Home.css'
 const Home = () => {
   const navigate = useNavigate()
 
-  const [reviews, setReviews] = useState([])
-
-  useEffect(() => {
-    fetch('ReviewData.json')
-      .then((res) => res.json())
-      .then((data) => setReviews(data))
-  }, [])
+  const [reviews] = useReviews()
 
   const handleSeeAllReviews = () => {
     navigate('/reviews')
