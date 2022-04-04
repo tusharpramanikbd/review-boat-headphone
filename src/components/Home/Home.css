@@ -2,3 +2,25 @@
   margin: 1rem 0;
   text-align: center;
 }
+.section-reviews {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-height: auto;
+  background-color: darkcyan;
+  border-radius: 10px;
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .section-reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-reviews {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0;
+  }
+}
