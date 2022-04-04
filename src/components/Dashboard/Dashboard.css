@@ -1,0 +1,14 @@
+.section-dashboard {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-height: auto;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.line-chart {
+  width: 300px;
+  height: 300px;
+}

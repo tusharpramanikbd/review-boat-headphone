@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import MyLineChart from '../MyLineChart/MyLineChart'
 import './Dashboard.css'
 
 const Dashboard = () => {
+  const [chartData, setChartData] = useState([])
+
+  useEffect(() => {
+    fetch('ChartData.json')
+      .then((res) => res.json())
+      .then((data) => setChartData(data))
+  }, [])
+
   return (
-    <div>
-      <h1>This is dashboard page</h1>
-    </div>
+    <section className='section-dashboard'>
+      <MyLineChart chartData={chartData} />
+    </section>
   )
 }
 
