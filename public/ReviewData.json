@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Lee Roberts",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "rating": 3,
+    "review": "Have been using these for a year now. The build quality is decent. I don't see any wear on them even after a year. The sound is pretty good at this price point. No complaints for this price."
+  },
+  {
+    "id": 2,
+    "name": "Bertha Clarke",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
+    "rating": 2,
+    "review": "Ok where to start...Product build quality is very good no doubt But..The two primary issues that forced me to sell it to someone 2nd hand.1st Too tight.If you wear glasses... Just don't buy it."
+  },
+  {
+    "id": 3,
+    "name": "Rex Griffith",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg",
+    "rating": 4,
+    "review": "Only I problem with this is that it's not durable. But it's natural that if the headphones is of light weight then it won't be durable but it is better to increase the weight rather than being less durable"
+  },
+  {
+    "id": 4,
+    "name": "Jamie Maldonado",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "rating": 5,
+    "review": "One of the best headphones in the price range. The material quality is good. Sound quality is great...Battery life ***** (5 star). It works flawlessly indoors. awesome delivery..."
+  },
+  {
+    "id": 5,
+    "name": "Calvin Day",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "rating": 3,
+    "review": "Be careful. Your ears will get pain due to its poor design. Sound quality is very good but you can not use for long. They do not accept return. So it seems that the brand is unaware about this defect."
+  },
+  {
+    "id": 6,
+    "name": "Esther Elliott",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg",
+    "rating": 4,
+    "review": "If you have glasses(specs) don't even think of buying this headphones. It hurts a lot after 10mins of wearing. You may have this pain hours after using it. Your ears will be crushed."
+  }
+]
