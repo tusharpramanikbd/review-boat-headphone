@@ -16,9 +16,10 @@ const Banner = () => {
             <span>Your Next Headphone</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quo numquam nihil omnis reprehenderit libero aliquid atque deleniti
-            soluta quaerat?
+            Every person reach to the haven of music. Our boat can take you
+            there. Our series of boat headphones are designed to give you
+            ultimate music feelings. It has different custom feature for
+            different music lovers.
           </p>
           <a
             href='https://www.boat-lifestyle.com/'
