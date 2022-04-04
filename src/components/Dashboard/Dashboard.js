@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import MyAreaChart from '../MyAreaChart/MyAreaChart'
 import MyBarChart from '../MyBarChart/MyBarChart'
 import MyLineChart from '../MyLineChart/MyLineChart'
+import MyPieChart from '../MyPieChart/MyPieChart'
 import './Dashboard.css'
 
 const Dashboard = () => {
@@ -18,6 +19,7 @@ const Dashboard = () => {
       <MyLineChart chartData={chartData} />
       <MyAreaChart chartData={chartData} />
       <MyBarChart chartData={chartData} />
+      <MyPieChart chartData={chartData} />
     </section>
   )
 }
