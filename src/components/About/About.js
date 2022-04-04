@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className='section-about'>
+    <section className='section-about'>
       <h2>This is a Boat Headphone Review Website created with ReactJS.</h2>
       <ul>
         <li>
@@ -24,7 +24,7 @@ const About = () => {
           <p>4. On the blogs page you can find some question answer.</p>
         </li>
       </ul>
-    </div>
+    </section>
   )
 }
 
