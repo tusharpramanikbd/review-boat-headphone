@@ -7,8 +7,10 @@
   border-radius: 10px;
   padding: 2rem;
 }
-
-.line-chart {
-  width: 300px;
-  height: 300px;
+@media screen and (min-width: 768px) {
+  .section-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }

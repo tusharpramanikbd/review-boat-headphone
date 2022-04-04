@@ -1,12 +1,13 @@
 import React from 'react'
 import { PieChart, Pie, ResponsiveContainer, Tooltip } from 'recharts'
+import './MyPieChart.css'
 
 const MyPieChart = (props) => {
   const { chartData } = props
   return (
-    <div>
+    <div className='chart-container'>
       <h2 className='chart-label'>Investment VS Revenue</h2>
-      <ResponsiveContainer width='100%' height={300}>
+      <ResponsiveContainer width={350} height={250}>
         <PieChart>
           <Pie
             data={chartData}

@@ -13,9 +13,9 @@ import './MyAreaChart.css'
 const MyAreaChart = (props) => {
   const { chartData } = props
   return (
-    <div>
+    <div className='chart-container'>
       <h2 className='chart-label'>Investment VS Revenue</h2>
-      <ResponsiveContainer width='100%' height={300}>
+      <ResponsiveContainer width={350} height={250}>
         <AreaChart data={chartData}>
           <CartesianGrid strokeDasharray='5 5' />
           <XAxis dataKey='month' />
