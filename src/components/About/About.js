@@ -22,6 +22,12 @@ const About = () => {
         <li>
           <p>4. On the blogs page you can find some question answer.</p>
         </li>
+        <li>
+          <p>5. 404 Not Found route added.</p>
+        </li>
+        <li>
+          <p>6. The whole app is responsive.</p>
+        </li>
       </ul>
     </section>
   )
