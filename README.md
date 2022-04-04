@@ -1,3 +1,14 @@
+# Review Boat Headphone
+
+Live Link: https://review-boat-headphone-tushar.netlify.app/
+
+This is a Boat Headphone Review Website created with ReactJS.
+
+1. React router is used to show the content over multiple pages.
+2. You can see the top 3 review on the homepage and all the reviews on reviews page.
+3. Recharts is use to show some charts with given data.
+4. On the blogs page you can find some question answer.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
